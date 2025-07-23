@@ -6,12 +6,12 @@ const Nav = () => {
     <nav>
         <img src="" alt="logo" />
 
-        <ul>
+        <ul className='flex flex-row'>
             <li><a href="">Femme_Fantastica</a></li>
             <li><a href="">Daily_Tips</a></li>
             <li><a href="">Woman_to_Woman</a></li>
             <li><a href="">Femmeposia</a></li>
-            <li><a href="">Menstral_Note</a></li>
+            <li><a href="">Menstrual_Note</a></li>
             <li><a href="">Editions</a></li>
         </ul>
     </nav>
