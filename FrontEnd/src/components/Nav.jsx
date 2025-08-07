@@ -5,10 +5,10 @@ import {Link} from 'react-router-dom';
 const Nav = () => {
 
   return (
-    <nav className='bg-black flex flex-row'>
+    <nav className='flex bg-black items-center flex-row'>
         <img src={Logo} alt="logo" width={'20%'} height={'20%'} />
 
-        <ul className='flex flex-row justify-center gap-8 m-auto text-white nav-text'>
+        <ul className='flex flex-column md: flex-row justify-center items-center gap-8 m-auto text-white nav-text'>
             <li className='hover:text-pink-200 transition-colors ease-linear'><a href="">FemmeFantastica</a></li>
             <li className='hover:text-pink-200 transition-colors ease-linear'><a href="">DailyTips</a></li>
             <li className='hover:text-pink-200 transition-colors ease-linear'><a href="">WomanToWoman</a></li>
